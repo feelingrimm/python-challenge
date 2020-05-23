@@ -63,7 +63,7 @@ with open(poll_path, "r") as csvfile:
     print(f"Correy: {round((correy / votes) * 100)}% ({correy})", file=open("pollanalysis.txt", "a"))
     print("-------------------------------------", file=open("pollanalysis.txt", "a"))
     print(winner, file=open("pollanalysis.txt", "a"))
-
+# final print to terminal
     print("Total Votes: " + str(votes))
     print("-------------------------------------")
     print(f"Li: {round((li / votes) * 100)}% ({li})")
