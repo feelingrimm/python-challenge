@@ -1,0 +1,5 @@
+Total Months: 86
+Average Change: 446309.0465116279
+Profit/Loss: 38382578
+Biggest Gain: 1170593
+Biggest Loss: -1196225
