@@ -39,9 +39,9 @@ with open(budget_path, "r") as csvfile:
     print("Biggest Loss: " + str(greatloss))  #Final Prints
 
     print("Total Months: " + str(months), file=open("Analysis.txt", "a"))
-    print("Average Change: " + str(avg_change), file=open("Analysis.txt", "a"))
-    print("Profit/Loss: " + str(net), file=open("Analysis.txt", "a"))
-    print("Biggest Gain: " + str(greatest), file=open("Analysis.txt", "a"))
-    print("Biggest Loss: " + str(greatloss), file=open("Analysis.txt", "a"))
+    print("Average Change: $" + str(avg_change), file=open("Analysis.txt", "a"))
+    print("Profit/Loss: $" + str(net), file=open("Analysis.txt", "a"))
+    print("Biggest Gain: $" + str(greatest), file=open("Analysis.txt", "a"))
+    print("Biggest Loss: $" + str(greatloss), file=open("Analysis.txt", "a"))
 
 
